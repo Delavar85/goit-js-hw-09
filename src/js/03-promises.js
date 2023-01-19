@@ -4,7 +4,7 @@ const refs = {
   delayStep: document.querySelector('input[name="step"]'),
   amount: document.querySelector('input[name="amount"]')
 };
-console.log(refs.firstStep.value,refs.delayStep,refs.amount)
+
 function createPromise(position, delay) {
   return new Promise((resolve, reject) => {
     const shouldResolve = Math.random() > 0.3;
